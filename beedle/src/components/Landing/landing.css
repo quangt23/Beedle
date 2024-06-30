@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f1f0ea;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding-bottom: 15vh;
+}
+
+.landing-container {
+    justify-content: center;
+    text-align: center;
+    width: 400px;
+}
+
+.beedle-name {
+    font-size: 64px;
+    font-weight: 800;
+}
+
+.beedle-description {
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.button-container button,
+.button-container .play-button {
+    flex: 1;
+    font-size: 16px;
+    margin: 20px 10px;
+    padding: .75rem;
+    border-radius: 20px;
+    border: 2px solid;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-decoration: none; 
+    color: black;
+}
+
+.button-container button:hover,
+.button-container .play-button:hover {
+    background-color: #b6cb9e;
+}
+
+.play-button {
+    background-color: #f9cc58;
+}
+
+.footer {
+    margin-top: auto;
+    padding-top: 1rem;
+}
