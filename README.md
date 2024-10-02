@@ -1,6 +1,7 @@
 
 # Spelling Bee Game 🐝🔠
 **Created by:** Quang Tran
+![Beedle Front Page](beedlefrontpage.PNG)
 
 ## Description 📝
 This Spelling Bee Game challenges players to guess a daily word by listening to progressively longer audio hints. Players receive 3 hints of increasing length to help them guess the word. After each hint, they can input their guess, and the game provides feedback on whether their guess is correct, contains misplaced letters, or has incorrect letters. The game ends when the player either guesses the word correctly or exhausts their attempts.
