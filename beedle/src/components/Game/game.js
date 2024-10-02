@@ -53,11 +53,11 @@ const Game = () => {
 
     switch (level) {
       case 1:
-        playAudioHint(300); // 0.1 seconds
+        playAudioHint(300); // 0.3 seconds
         setHintLevel(1);
         break;
       case 2:
-        playAudioHint(600); // 0.5 seconds
+        playAudioHint(600); // 0.6 seconds
         setHintLevel(2);
         break;
       case 3:
